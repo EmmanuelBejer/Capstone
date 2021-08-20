@@ -79,8 +79,10 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="70dp"
             android:background="@android:color/background_light"/>
-
-        <Button
+         <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+         <Button
             android:id="@+id/OTPSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,6 +90,14 @@
             android:textStyle="bold"
             android:text="@string/Submit"
             android:textSize="16sp"/>
+         <ProgressBar
+             android:id="@+id/progressbar"
+             android:visibility="gone"
+             android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        </FrameLayout>
 
         <Button
             android:layout_width="400dp"

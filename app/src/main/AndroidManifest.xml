@@ -10,6 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Capstone">
+        <activity android:name=".SetupPin"></activity>
+        <activity android:name=".Verified"></activity>
         <activity android:name=".Verification"></activity>
         <activity android:name=".Register"></activity>
         <activity android:name=".LoginNext"></activity>
